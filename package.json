@@ -1,0 +1,20 @@
+{
+  "name": "dealer_for_the_people",
+  "version": "1.0.0",
+  "description": "Scrape reviews for this McKaig Chevrolet Buick from DealerRater.com and uncover the top three worst offenders of these overly positive endorsements.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Ben Larson",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.9"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
